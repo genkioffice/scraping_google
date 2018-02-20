@@ -1,4 +1,7 @@
-# load 'scrape_review_on_google.rb'
+
+require 'open-uri'
+require 'nokogiri'
+require './get_meta_data'
 require './scrape_with_things'
 
 print('enter url')
