@@ -1,10 +1,14 @@
+
 require 'open-uri'
 require 'nokogiri'
 require './get_meta_data'
+require './scrape_with_things'
 
-
-# for dev
-puts 'enter your url: '
+print('enter url')
 # url = gets.chomp
-url = 'https://play.google.com/store/apps/details?id=jp.smarteducation.tofusushi'
-count_ad_app(url)
+url_with = 'https://play.google.com/store/apps/details?id=vg.cakejam.TreasureHuntCleopatra'
+url_without = 'https://play.google.com/store/apps/details?id=jp.gungho.padRadar'
+a = check_add(url)
+c = 10
+puts(c)
+puts(c + a)
