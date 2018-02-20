@@ -2,13 +2,9 @@
 require 'open-uri'
 require 'nokogiri'
 require './get_meta_data'
-require './scrape_with_things'
 
-print('enter url')
-# url = gets.chomp
-url_with = 'https://play.google.com/store/apps/details?id=vg.cakejam.TreasureHuntCleopatra'
-url_without = 'https://play.google.com/store/apps/details?id=jp.gungho.padRadar'
-a = check_add(url)
-c = 10
-puts(c)
-puts(c + a)
+
+puts('enter an app url on google play store')
+url = gets.chomp
+n = fetch_number_ad_apps(url)
+puts('the number of apps with advertsement: ' + (n).to_s)
