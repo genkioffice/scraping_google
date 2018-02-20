@@ -5,7 +5,6 @@ require 'byebug'
 
 
 # in the file in fancs, i can get the list of apps made by same developper.
-A = []
 # A contains the list
 # you can just add first column in google_review_text.
 #you can search by app-name in the directory
@@ -20,12 +19,6 @@ def count_ad_apps(arr)
   end
   return app_count
 end
-# for dev
-# print('enter url')
-# url = gets.chomp
-# use_scraping(url)
-
-
 
 def check_add(url)
   html_doc = Nokogiri::HTML(open(url).read)
