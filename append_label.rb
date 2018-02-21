@@ -1,13 +1,16 @@
 require 'open-uri'
 require 'nokogiri'
 require 'byebug'
+require 'addressable/uri'
+require_relative '定数/constants.rb'
+require './get_meta_data'
 # example
-path_with = "/Users/g_takahashi/data_science/scraping/scraping_google" + "/広告あり" + "/apps"
+# path_with = "/Users/g_takahashi/data_science/scraping/scraping_google" + "/広告あり" + "/apps"
 
 # get name from directory, you have to path the returnd item to create_sets_url
 def get_name_list(path)
   name_list = []
-  Dir.foreach(path_with) do |f|
+  Dir.foreach(path) do |f|
     unless f.start_with? "."
       name_list << f
     end
@@ -17,9 +20,15 @@ end
 
 # used in create_sets_url, 
 def scrape_search(path)
-  path = Addressable::URI.parse(path).normalize
-  html_doc = Nokogiri::HTML(open(path).read)
-  tmp = html_doc.search('.card-click-target')
+  begin
+    path = Addressable::URI.parse(path).normalize
+    html_doc = Nokogiri::HTML(open(path).read)
+    tmp = html_doc.search('.card-click-target')
+  rescue => error
+    sleep 1
+    puts error.message
+    retry
+  end
   if tmp.empty?
     return 'deleted'
   else  
@@ -49,76 +58,54 @@ end
 def get_category(url)
   html_doc = Nokogiri::HTML(open(url).read)
   tmp = html_doc.search('.document-subtitle.category')
-  genre = tmp.xpath('span',itemprop="genre").children.inner_text
-  return genre
+  genre = tmp.search(".document-subtitle.category").attribute("href").value.split(/^(\/)store\/apps\/category\/(.+)/)[2]
+  genre_num = check_value_from_string(genre)
+  return genre_num
 end
 
-def 
+# used in get_category function
+def check_value_from_string(category)
+  return @genre.find_index {|i,d| d == category}
+end
+
+
 
 
 # this is main fanction
 def adapt_label()
   path_with = "/Users/g_takahashi/data_science/scraping/scraping_google" + "/広告あり" + "/apps"
   with_list, with_name_list = convert_path_to_link(path_with)
-  
   path_without =  "/Users/g_takahashi/data_science/scraping/scraping_google" + "/広告なし" + "/apps"
   without_list, without_name_list = convert_path_to_link(path_without)
-
   # for one file
   # open file in directory
   for title in with_name_list
-    File.open("広告あり/apps/#{app_title}", mode="a+") {|f|
+    File.open("広告あり/apps/#{title}/reviews.txt", mode="a") do |f|
       f.seek(0, IO::SEEK_SET)
       # genreを取り出す
-      url = with_list[title]
+      title_index = with_name_list.find_index(title)
+      url = with_list[title_index]
       genre = get_category(url)
-      f.puts "genre: " + genre
-       
-    }
-
-
-
-
-
-  files = []
-  # return title of file
-  app_title = File.basename(file, ".txt")
-  files.append(app_title)
-
-  html_doc = Nokogiri::HTML(open(url).read)
-  app_title = html_doc.search('.id-app-title').inner_text
-  # スラッシュが入っていた場合アンダーバーへ変更する。
-  app_title.gsub!("/",'_') if app_title.include? "/"
-
-  tmp_check_category = html_doc.search('.document-subtitle.category').inner_text
-  if tmp_check_ad.include? "広告を含む"
-    # app_titleに対応したフォルダを作ります。
-    unless File.exists?("広告あり/apps/#{app_title}")
-      Dir.mkdir("広告あり/apps/#{app_title}")
-      
-      # 作成されたフォルダの下にレビューを保存します。
-      File.open("広告あり/apps/#{app_title}/reviews.txt","w+") do |f|
-        html_doc.search('.review-body.with-review-wrapper').each do |review|
-          f.puts(review.inner_text.delete "全文を表示")
-        end
-      end
-      print('保存されました。')
-    else
-      print('既にフォルダが作成されています。')
+      # 他のad付きのappの数を数える
+      ad_counts = fetch_number_ad_apps(url)
+      f.puts("genre: " + genre.to_s)
+      f.puts("others: " + ad_counts.to_s)
     end
-  else
-    unless File.exists?("広告なし/apps/#{app_title}")
-      Dir.mkdir("広告なし/apps/#{app_title}")
+  end
 
-      # 作成されたフォルダの下にレビューを保存します。
-      File.open("広告なし/apps/#{app_title}/reviews.txt","w+") do |f|
-        html_doc.search('.review-body.with-review-wrapper').each do |review|
-          f.puts(review.inner_text.delete "全文を表示")
-        end
-      end
-      print('保存されました。')
-    else
-      print('既にフォルダが作成されています。')
+  for title in without_name_list
+    File.open("広告なし/apps/#{title}/reviews.txt", mode="a") do |f|
+      f.seek(0, IO::SEEK_SET)
+      # genreを取り出す
+      title_index = without_name_list.find_index(title)
+      url = without_list[title_index]
+      genre = get_category(url)
+      # 他のad付きのappの数を数える
+      ad_counts = fetch_number_ad_apps(url)
+      f.puts("genre: " + genre.to_s)
+      f.puts("others: " + ad_counts.to_s)
     end
   end
 end
+# start labeling 
+adapt_label()

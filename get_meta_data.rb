@@ -87,7 +87,7 @@ end
 
 
 
-
+p fetch_number_ad_apps("https://play.google.com/store/apps/details?id=com.microsoft.office.outlook")
 
 
 
