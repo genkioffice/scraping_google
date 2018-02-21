@@ -3,6 +3,7 @@ require 'nokogiri'
 require 'byebug'
 require 'addressable/uri'
 require './get_meta_data'
+require_relative '定数/constants.rb'
 
 
 path_with = "/Users/g_takahashi/data_science/scraping/scraping_google" + "/広告あり" + "/apps"
@@ -24,7 +25,7 @@ def scrape_search(path)
 	tmp = html_doc.search('.card-click-target')
 	if tmp.empty?
 		return 'deleted'
-	else	
+	else
 		the_url = tmp[1].attribute('href').value
 		return modify_link(the_url)
 	end
@@ -50,7 +51,7 @@ end
 path_with = "/Users/g_takahashi/data_science/scraping/scraping_google" + "/広告あり" + "/apps"
 
 
-def convert_path_to_link(path)	
+def convert_path_to_link(path)
 	path_list = get_name_list(path)
 	urls = create_sets_url(path_list)
 	return urls
@@ -66,14 +67,19 @@ def get_category(url)
   html_doc = Nokogiri::HTML(open(url).read)
   tmp = html_doc.search('.document-subtitle.category')
   genre = tmp.search(".document-subtitle.category").attribute("href").value.split(/^(\/)store\/apps\/category\/(.+)/)[2]
-  return genre
+  genre_num = check_value_from_string(genre)
+  return genre_num
+end
+
+def check_value_from_string(category)
+  return @genre.find_index {|i,d| d == category}
 end
 
 url = "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook"
 
 category = get_category(url)
-
-a = genre.find_index {|i,d| d == category}
+byebug
+a = @genre.find_index {|i,d| d == category}
 byebug
 p 3
 
