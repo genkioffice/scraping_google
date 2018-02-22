@@ -26,6 +26,7 @@ def scrape_search(path)
     tmp = html_doc.search('.card-click-target')
   rescue => error
     sleep 1
+    puts path
     puts error.message
     retry
   end
@@ -55,11 +56,17 @@ def convert_path_to_link(path)
 end
 
 # enter url and return the genre of the app
+# enter url and return the genre of the app
 def get_category(url)
-  html_doc = Nokogiri::HTML(open(url).read)
-  tmp = html_doc.search('.document-subtitle.category')
-  genre = tmp.search(".document-subtitle.category").attribute("href").value.split(/^(\/)store\/apps\/category\/(.+)/)[2]
-  genre_num = check_value_from_string(genre)
+  begin
+    html_doc = Nokogiri::HTML(open(url).read)
+    tmp = html_doc.search('.document-subtitle.category')
+    genre = tmp.search(".document-subtitle.category").attribute("href").value.split(/^(\/)store\/apps\/category\/(.+)/)[2]
+    genre_num = check_value_from_string(genre)
+  rescue => error
+    puts url
+    genre_num = 58
+  end
   return genre_num
 end
 
@@ -73,41 +80,15 @@ end
 
 # this is main fanction
 def adapt_label()
-  path_without =  "/Users/g_takahashi/data_science/scraping/scraping_google" + "/広告なし" + "/apps"
-  without_list, without_name_list = convert_path_to_link(path_without)
+  # path_without =  "/Users/g_takahashi/data_science/scraping/scraping_google" + "/広告なし" + "/apps"
+  # without_list, without_name_list = convert_path_to_link(path_without)
 
-  for title in without_name_list
-    File.open("広告なし/apps/#{title}/reviews.txt", mode="a") do |f|
-      f.seek(0, IO::SEEK_SET)
-      # genreを取り出す
-      title_index = without_name_list.find_index(title)
-      url = without_list[title_index]
-      if url == "deleted"
-        # null genre is 58
-        genre = 58
-        ad_counts = 0
-      else
-        genre = get_category(url)
-        # 他のad付きのappの数を数える
-        # ad_counts = fetch_number_ad_apps(url)
-      end
-      f.puts("genre: " + genre.to_s)
-      f.puts("others: " + ad_counts.to_s)
-    end
-  end
-  puts("apps without ad are successfully labeled!")
-
-  # path_with = "/Users/g_takahashi/data_science/scraping/scraping_google" + "/広告あり" + "/apps"
-  # with_list, with_name_list = convert_path_to_link(path_with)
-
-  # # for one file
-  # # open file in directory
-  # for title in with_name_list
-  #   File.open("広告あり/apps/#{title}/reviews.txt", mode="a") do |f|
+  # for title in without_name_list
+  #   File.open("広告なし/apps/#{title}/reviews.txt", mode="a") do |f|
   #     f.seek(0, IO::SEEK_SET)
   #     # genreを取り出す
-  #     title_index = with_name_list.find_index(title)
-  #     url = with_list[title_index]
+  #     title_index = without_name_list.find_index(title)
+  #     url = without_list[title_index]
   #     if url == "deleted"
   #       # null genre is 58
   #       genre = 58
@@ -121,7 +102,33 @@ def adapt_label()
   #     f.puts("others: " + ad_counts.to_s)
   #   end
   # end
-  # puts("apps with ad are successfully labeled!")
+  # puts("apps without ad are successfully labeled!")
+
+  path_with = "/Users/g_takahashi/data_science/scraping/scraping_google" + "/広告あり" + "/apps"
+  with_list, with_name_list = convert_path_to_link(path_with)
+
+  # for one file
+  # open file in directory
+  for title in with_name_list
+    File.open("広告あり/apps/#{title}/reviews.txt", mode="a") do |f|
+      f.seek(0, IO::SEEK_SET)
+      # genreを取り出す
+      title_index = with_name_list.find_index(title)
+      url = with_list[title_index]
+      if url == "deleted"
+        # null genre is 58
+        genre = 58
+        ad_counts = 0
+      else
+        genre = get_category(url)
+        # 他のad付きのappの数を数える
+        # ad_counts = fetch_number_ad_apps(url)
+      end
+      f.puts("genre: " + genre.to_s)
+      f.puts("others: " + ad_counts.to_s)
+    end
+  end
+  puts("apps with ad are successfully labeled!")
 end
 # start labeling 
 adapt_label()

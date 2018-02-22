@@ -53,12 +53,18 @@ end
 
 # enter url and return the genre of the app
 def get_category(url)
-  html_doc = Nokogiri::HTML(open(url).read)
-  tmp = html_doc.search('.document-subtitle.category')
-  genre = tmp.search(".document-subtitle.category").attribute("href").value.split(/^(\/)store\/apps\/category\/(.+)/)[2]
-  genre_num = check_value_from_string(genre)
+  begin
+	  html_doc = Nokogiri::HTML(open(url).read)
+	  tmp = html_doc.search('.document-subtitle.category')
+	  genre = tmp.search(".document-subtitle.category").attribute("href").value.split(/^(\/)store\/apps\/category\/(.+)/)[2]
+	  genre_num = check_value_from_string(genre)
+  rescue => error
+  	genre_num = 58
+  end
   return genre_num
 end
+
+
 
 # used in get_category function
 def check_value_from_string(category)
@@ -67,53 +73,6 @@ end
 
 
 
-
-
-# this is main fanction
-def adapt_label()
-  # path_with = "/Users/g_takahashi/data_science/scraping/scraping_google" + "/広告あり" + "/apps"
-  # with_list, with_name_list = convert_path_to_link(path_with)
-  
-  # path_without =  "/Users/g_takahashi/data_science/scraping/scraping_google" + "/広告なし" + "/apps"
-  # without_list, without_name_list = convert_path_to_link(path_without)
-  
-  path_without =  "/Users/g_takahashi/data_science/tests/scraping_google/tmp/apps"
-  without_list, without_name_list = convert_path_to_link(path_without)
-  
-  # for title in with_name_list
-  #   File.open("広告あり/apps/#{app_title}", mode="a+") {|f|
-  #     f.seek(0, IO::SEEK_SET)
-  #     # genreを取り出す
-  #     byebug
-  #     url = with_list[title]
-  #     genre = get_category(url)
-  #     # 他のad付きのappの数を数える
-  #     ad_counts = fetch_number_ad_apps(url)
-  #     f.puts "genre: " + genre
-  #     f.puts "others: " + ad_counts
-  #   }
-  # end
-
-  for title in without_name_list
-    File.open("../../tests/scraping_google/tmp/apps/#{title}/reviews.txt", mode="a") do |f|
-      f.seek(0, IO::SEEK_SET)
-      # genreを取り出す
-      title_index = without_name_list.find_index(title)
-      url = without_list[title_index]
-      if url == "deleted"
-        # null genre is 58
-        genre = 58
-        ad_counts = 0
-        byebug
-      else
-        genre = get_category(url)
-        # 他のad付きのappの数を数える
-        ad_counts = fetch_number_ad_apps(url)
-      end
-      f.puts("genre: " + genre.to_s)
-      f.puts("others: " + ad_counts.to_s)
-    end
-  end
-end
-
-adapt_label()
+url = "https://play.google.com/store/apps/details?id=com.selvas.fr"
+g = get_category(url)
+p g
