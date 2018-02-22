@@ -28,3 +28,5 @@
   おもしろい    
   いいわー    
   Good    
+genre: 39
+others: 

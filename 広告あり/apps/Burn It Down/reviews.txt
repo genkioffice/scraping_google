@@ -3,3 +3,5 @@
   ジャンプやりにくー    
 genre: 35
 others: 11
+genre: 35
+others: 

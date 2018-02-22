@@ -38,3 +38,5 @@
  普通 ビジネスには余り、使わないから    
   internationalGoogletechnologyコラボレーション整合性    
   よろしく    
+genre: 5
+others: 

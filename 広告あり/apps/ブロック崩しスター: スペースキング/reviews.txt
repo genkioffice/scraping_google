@@ -38,3 +38,5 @@
   楽しい（棒）    
   GOOD    
   楽しい    
+genre: 36
+others: 

@@ -38,3 +38,5 @@
  Good! Very nice!!    
  やーばい とにかくやってみ。    
  暇つぶし 暇なときにやるのが一番    
+genre: 36
+others: 

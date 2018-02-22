@@ -40,3 +40,5 @@
   まぁ好きです    
 genre: 26
 others: 7
+genre: 26
+others: 

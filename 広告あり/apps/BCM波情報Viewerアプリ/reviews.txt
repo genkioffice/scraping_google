@@ -40,3 +40,5 @@
  良い❗ 見やすい。使いやすい。    
 genre: 28
 others: 1
+genre: 28
+others: 

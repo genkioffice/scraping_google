@@ -40,3 +40,5 @@
   いいんじゃない    
 genre: 10
 others: 8
+genre: 10
+others: 

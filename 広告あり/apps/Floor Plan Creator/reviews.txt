@@ -12,3 +12,5 @@
   英語でわからない    
 genre: 1
 others: 1
+genre: 1
+others: 

@@ -40,3 +40,5 @@
   強制終了した    
 genre: 34
 others: 2
+genre: 34
+others: 

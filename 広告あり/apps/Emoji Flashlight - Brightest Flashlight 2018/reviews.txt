@@ -2,3 +2,5 @@
   最高です。    
 genre: 29
 others: 1
+genre: 29
+others: 

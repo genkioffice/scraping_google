@@ -40,3 +40,5 @@
   まあ、便利    
 genre: 25
 others: 1
+genre: 25
+others: 

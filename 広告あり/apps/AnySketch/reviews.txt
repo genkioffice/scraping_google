@@ -9,3 +9,5 @@
   楽しんでやりたい❗ッソク。    
 genre: 10
 others: 1
+genre: 10
+others: 

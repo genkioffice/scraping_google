@@ -32,3 +32,5 @@
  Nice a little difficult for me!but It's fun    
 genre: 50
 others: 3
+genre: 50
+others: 

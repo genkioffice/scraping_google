@@ -21,3 +21,5 @@
  面白い 最高    
 genre: 38
 others: 10
+genre: 38
+others: 

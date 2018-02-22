@@ -40,3 +40,5 @@
  なんで？ ステージ3から強制終了する。    
 genre: 43
 others: 11
+genre: 43
+others: 

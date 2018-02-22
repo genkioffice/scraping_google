@@ -40,3 +40,5 @@
  楽しいw Temple runよりやりやすいかも?    
 genre: 34
 others: 11
+genre: 34
+others: 

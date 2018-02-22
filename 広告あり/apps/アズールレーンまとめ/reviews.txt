@@ -1,1 +1,3 @@
   軽い    
+genre: 21
+others: 

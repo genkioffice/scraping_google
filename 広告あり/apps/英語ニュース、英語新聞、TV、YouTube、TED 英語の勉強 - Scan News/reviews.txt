@@ -38,3 +38,5 @@
   This site is great!    Thanks a lot!    
   使い勝手良い    
   いいね👍    
+genre: 9
+others: 

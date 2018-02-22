@@ -1,3 +1,5 @@
   いいね    
   Good    
   good    
+genre: 16
+others: 

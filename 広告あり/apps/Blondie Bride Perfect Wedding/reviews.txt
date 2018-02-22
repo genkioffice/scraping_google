@@ -1,3 +1,5 @@
   なになに、課金なし？超いいじゃん!    
 genre: 40
 others: 13
+genre: 40
+others: 

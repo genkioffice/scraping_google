@@ -40,3 +40,5 @@
  し しー！    
 genre: 35
 others: 9
+genre: 35
+others: 

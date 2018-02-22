@@ -4,3 +4,5 @@
   ………(´・ω・`)b    
 genre: 26
 others: 5
+genre: 26
+others: 

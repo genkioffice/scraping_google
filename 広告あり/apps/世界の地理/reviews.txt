@@ -7,3 +7,5 @@
   とても役に立つ    
   楽しい    
  I love I love world geography!!!    
+genre: 9
+others: 

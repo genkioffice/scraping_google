@@ -40,3 +40,5 @@
  Great App It should be more better if you could choose to uncrop the images and also save the grid view setting for each news.  Thanks!    
 genre: 21
 others: 7
+genre: 21
+others: 

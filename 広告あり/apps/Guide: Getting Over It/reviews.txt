@@ -17,3 +17,5 @@
   説明するがループしててまったく遊べない    
 genre: 4
 others: 14
+genre: 4
+others: 

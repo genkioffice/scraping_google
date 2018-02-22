@@ -40,3 +40,5 @@
   シンプルで使いやすいです。    
 genre: 12
 others: 0
+genre: 12
+others: 

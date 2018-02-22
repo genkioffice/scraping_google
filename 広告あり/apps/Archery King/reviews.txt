@@ -40,3 +40,5 @@
   槍?始めると中々楽しい！    
 genre: 47
 others: 10
+genre: 47
+others: 

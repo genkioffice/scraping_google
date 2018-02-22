@@ -3,3 +3,5 @@
   It's very fun and easy to play    
 genre: 49
 others: 17
+genre: 49
+others: 

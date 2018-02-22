@@ -1,3 +1,5 @@
   大好きなプリキュアのゲームができ手嬉しい    
 genre: 41
 others: 0
+genre: 58
+others: 0

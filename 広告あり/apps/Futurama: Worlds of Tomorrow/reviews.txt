@@ -3,3 +3,5 @@
   やりたい    
 genre: 35
 others: 3
+genre: 58
+others: 0

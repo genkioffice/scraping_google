@@ -40,3 +40,5 @@
  よい 良い    
 genre: 36
 others: 11
+genre: 36
+others: 

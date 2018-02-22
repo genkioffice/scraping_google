@@ -7,3 +7,5 @@
  広告が邪魔 広告が邪魔なのでアンインストールしました    
 genre: 9
 others: 2
+genre: 9
+others: 

@@ -38,3 +38,5 @@
   楽しい    
   最高    
   Good    
+genre: 47
+others: 

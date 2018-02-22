@@ -1,3 +1,5 @@
   BTS    
 genre: 42
 others: 6
+genre: 58
+others: 0

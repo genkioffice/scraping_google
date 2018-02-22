@@ -23,3 +23,5 @@
   見てるだけで楽しい！    
 genre: 15
 others: 1
+genre: 15
+others: 

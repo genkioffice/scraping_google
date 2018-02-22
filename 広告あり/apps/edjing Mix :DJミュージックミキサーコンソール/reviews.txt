@@ -40,3 +40,5 @@
   クリップボックスとかYouTube からできるようになるもともっとおもしろいかも    
 genre: 20
 others: 8
+genre: 20
+others: 

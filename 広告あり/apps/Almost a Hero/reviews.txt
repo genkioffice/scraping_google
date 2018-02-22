@@ -8,3 +8,5 @@
   シンプルでいい    
 genre: 45
 others: 2
+genre: 45
+others: 

@@ -38,3 +38,5 @@
   私の年代にぴったりの曲が聞けて楽しんでいます。    
   Can not play NHK stream    
   とても良い。たまに途切れるけど。    
+genre: 20
+others: 

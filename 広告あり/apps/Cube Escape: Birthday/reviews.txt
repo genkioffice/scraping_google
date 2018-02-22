@@ -40,3 +40,5 @@
  ハマった ウサギが怖くなりました    
 genre: 35
 others: 8
+genre: 35
+others: 

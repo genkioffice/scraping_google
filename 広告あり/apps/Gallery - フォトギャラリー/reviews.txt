@@ -40,3 +40,5 @@
  　 外部SD認識せず　フォルダ階層できず (Android 6)    
 genre: 24
 others: 1
+genre: 58
+others: 0

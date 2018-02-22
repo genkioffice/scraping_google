@@ -40,3 +40,5 @@
   素晴らしい    
 genre: 2
 others: 1
+genre: 2
+others: 

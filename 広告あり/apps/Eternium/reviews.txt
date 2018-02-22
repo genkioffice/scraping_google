@@ -40,3 +40,5 @@
   面白いです。やり込めそうです    
 genre: 45
 others: 3
+genre: 45
+others: 

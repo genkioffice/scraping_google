@@ -40,3 +40,5 @@
   良かったら使ってください！ijpzuvuvzelennl    
 genre: 39
 others: 24
+genre: 39
+others: 

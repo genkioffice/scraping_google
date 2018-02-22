@@ -1,2 +1,4 @@
   So good!    
  nice！ much better than the previous version of scrabble. good job EA    
+genre: 50
+others: 

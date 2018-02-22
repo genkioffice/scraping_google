@@ -20,14 +20,19 @@ end
 
 # used in create_sets_url, 
 def scrape_search(path)
+  count = 0
   begin
     path = Addressable::URI.parse(path).normalize
     html_doc = Nokogiri::HTML(open(path).read)
     tmp = html_doc.search('.card-click-target')
   rescue => error
-    sleep 1
+    sleep 5
+    count += 1
     puts path
     puts error.message
+    if count > 3
+      return 'deleted'
+    end
     retry
   end
   if tmp.empty?

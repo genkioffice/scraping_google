@@ -40,3 +40,5 @@
   とくに意味はなし    
 genre: 25
 others: 2
+genre: 25
+others: 

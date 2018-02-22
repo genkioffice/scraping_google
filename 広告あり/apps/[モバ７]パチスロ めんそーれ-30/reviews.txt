@@ -40,3 +40,5 @@
  よろしければコード入力して下さい❗ bbdzyzighbieahfメンソーレ    
 genre: 39
 others: 24
+genre: 39
+others: 

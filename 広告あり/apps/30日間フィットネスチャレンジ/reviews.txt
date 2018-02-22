@@ -40,3 +40,5 @@
   素晴らしいアプリ！    
 genre: 14
 others: 10
+genre: 14
+others: 

@@ -5,3 +5,5 @@
  よさげです 使い込んで見ます    
 genre: 2
 others: 3
+genre: 2
+others: 

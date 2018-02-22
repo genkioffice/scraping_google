@@ -40,3 +40,5 @@
   終了後のいちいち広告消すのが無くなれば・・・    
 genre: 29
 others: 2
+genre: 29
+others: 

@@ -14,3 +14,5 @@
   なし。    
 genre: 39
 others: 11
+genre: 39
+others: 

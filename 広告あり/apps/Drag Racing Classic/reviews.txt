@@ -40,3 +40,5 @@
  いいね いいね    
 genre: 44
 others: 8
+genre: 44
+others: 

@@ -40,3 +40,5 @@
  Galaxyユーザー必見 Galaxyのマルチウィンドウ対応！！！！！(僕はGalaxy Note 3です)    
 genre: 36
 others: 5
+genre: 36
+others: 

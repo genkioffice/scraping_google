@@ -1,3 +1,5 @@
   楽しくないです    
 genre: 43
 others: 15
+genre: 43
+others: 

@@ -40,3 +40,5 @@
   はまる   FPS好きな人絶対ハマる！    
 genre: 34
 others: 9
+genre: 34
+others: 

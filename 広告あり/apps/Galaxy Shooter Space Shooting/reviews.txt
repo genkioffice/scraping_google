@@ -6,3 +6,5 @@
   面白い　    
 genre: 36
 others: 2
+genre: 58
+others: 0

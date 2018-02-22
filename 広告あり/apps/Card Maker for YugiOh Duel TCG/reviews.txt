@@ -16,3 +16,5 @@
   カードの絵が映らなくていちいちリセットされる    
 genre: 6
 others: 3
+genre: 6
+others: 

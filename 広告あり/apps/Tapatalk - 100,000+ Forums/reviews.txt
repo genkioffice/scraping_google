@@ -7,3 +7,5 @@
  これ一つで XDA、Rootzwikiなど複数のforum管理できて便利。    
  facebookのgroupに登録されて 個人情報大公開だな。    
   Cool    
+genre: 27
+others: 

@@ -19,3 +19,5 @@
   インストールできない    
 genre: 31
 others: 1
+genre: 31
+others: 

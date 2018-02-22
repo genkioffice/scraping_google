@@ -1,3 +1,5 @@
   操作しにくい    
 genre: 36
 others: 1
+genre: 36
+others: 

@@ -1,3 +1,5 @@
  停止しました 停止しました    
 genre: 17
 others: 1
+genre: 17
+others: 

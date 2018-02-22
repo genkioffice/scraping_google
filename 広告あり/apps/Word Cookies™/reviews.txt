@@ -22,3 +22,5 @@
   I like this game.    
   It's a fun game!    
   Helps me think of words. Never had this much fun.    
+genre: 50
+others: 

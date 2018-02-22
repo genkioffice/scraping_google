@@ -1,1 +1,3 @@
  guzel super    
+genre: 37
+others: 

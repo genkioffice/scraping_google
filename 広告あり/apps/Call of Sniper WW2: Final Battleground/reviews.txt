@@ -7,3 +7,5 @@
   最高    
 genre: 34
 others: 10
+genre: 34
+others: 

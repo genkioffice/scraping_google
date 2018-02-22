@@ -1,2 +1,4 @@
   Great game    
   Very fun game to pass time with!    
+genre: 50
+others: 

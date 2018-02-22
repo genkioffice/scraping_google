@@ -1,1 +1,3 @@
   いい    
+genre: 50
+others: 

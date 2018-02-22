@@ -23,3 +23,5 @@
   楽しい    
 genre: 29
 others: 11
+genre: 25
+others: 

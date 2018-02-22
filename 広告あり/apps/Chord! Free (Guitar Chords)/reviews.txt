@@ -5,3 +5,5 @@
   、ー , q8c    
 genre: 20
 others: 1
+genre: 20
+others: 

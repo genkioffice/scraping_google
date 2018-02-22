@@ -1,1 +1,3 @@
   見づらい    
+genre: 37
+others: 

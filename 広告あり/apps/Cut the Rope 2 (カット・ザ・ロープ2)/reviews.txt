@@ -40,3 +40,5 @@
  最高 まじうけ　　　とにかくうける    
 genre: 43
 others: 11
+genre: 43
+others: 

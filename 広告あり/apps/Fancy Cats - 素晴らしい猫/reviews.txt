@@ -2,3 +2,5 @@
   画面が開きません!!早めに改善して下さい    
 genre: 40
 others: 6
+genre: 40
+others: 

@@ -31,3 +31,5 @@
   難しく楽しい    
 genre: 49
 others: 3
+genre: 49
+others: 

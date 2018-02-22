@@ -4,3 +4,5 @@
   面白くない    
 genre: 39
 others: 1
+genre: 39
+others: 

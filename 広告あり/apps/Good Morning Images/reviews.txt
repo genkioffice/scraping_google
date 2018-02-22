@@ -1,3 +1,5 @@
   友達が欲しい    
 genre: 27
 others: 4
+genre: 58
+others: 0

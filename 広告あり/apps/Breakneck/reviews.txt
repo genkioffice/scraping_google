@@ -25,3 +25,5 @@
   神ゲーかよ    
 genre: 44
 others: 11
+genre: 44
+others: 

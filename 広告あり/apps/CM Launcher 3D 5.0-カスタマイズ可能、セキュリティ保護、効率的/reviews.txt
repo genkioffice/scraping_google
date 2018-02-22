@@ -40,3 +40,5 @@
   役に立つ❗    
 genre: 23
 others: 1
+genre: 23
+others: 

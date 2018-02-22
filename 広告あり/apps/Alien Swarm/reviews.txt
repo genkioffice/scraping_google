@@ -7,3 +7,5 @@
  遊び 楽しみ    
 genre: 36
 others: 11
+genre: 36
+others: 

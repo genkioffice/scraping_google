@@ -1,3 +1,5 @@
   すぐバイク集められるからもっとバイクとか増やせばいい    
 genre: 42
 others: 11
+genre: 42
+others: 

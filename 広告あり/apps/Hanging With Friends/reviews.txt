@@ -2,3 +2,5 @@
  ‥ 普通    
 genre: 50
 others: 11
+genre: 50
+others: 

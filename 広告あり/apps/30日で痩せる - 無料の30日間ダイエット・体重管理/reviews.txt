@@ -40,3 +40,5 @@
   BMIもでるので肥満度が把握しやすい    
 genre: 14
 others: 16
+genre: 14
+others: 

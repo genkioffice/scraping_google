@@ -1,1 +1,3 @@
   何もない    
+genre: 36
+others: 

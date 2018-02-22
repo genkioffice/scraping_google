@@ -40,3 +40,5 @@
  動きが粗い iOSみたいにもう少し滑らかでおとなしい挙動にして欲しい    
 genre: 23
 others: 12
+genre: 23
+others: 

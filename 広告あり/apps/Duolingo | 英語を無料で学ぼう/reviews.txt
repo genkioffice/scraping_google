@@ -40,3 +40,5 @@
   楽しみながら英語力高められます    
 genre: 9
 others: 1
+genre: 9
+others: 

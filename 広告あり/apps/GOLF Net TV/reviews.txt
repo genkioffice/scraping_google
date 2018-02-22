@@ -6,3 +6,5 @@
   アプリ開かず    
 genre: 28
 others: 1
+genre: 58
+others: 0

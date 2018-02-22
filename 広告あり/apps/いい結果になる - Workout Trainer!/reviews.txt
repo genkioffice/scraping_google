@@ -13,3 +13,5 @@
   よくわからない    
  言語 日本語にしてほしいです    
   Cumbersome    
+genre: 14
+others: 

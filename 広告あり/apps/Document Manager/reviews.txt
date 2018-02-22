@@ -2,3 +2,5 @@
   とりあえず使える。    
 genre: 5
 others: 4
+genre: 5
+others: 

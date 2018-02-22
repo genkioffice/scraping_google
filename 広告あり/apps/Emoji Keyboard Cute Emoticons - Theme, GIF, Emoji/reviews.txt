@@ -16,3 +16,5 @@
   いいね    
 genre: 29
 others: 2
+genre: 58
+others: 0

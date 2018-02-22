@@ -40,3 +40,5 @@
   good!    
 genre: 9
 others: 1
+genre: 9
+others: 

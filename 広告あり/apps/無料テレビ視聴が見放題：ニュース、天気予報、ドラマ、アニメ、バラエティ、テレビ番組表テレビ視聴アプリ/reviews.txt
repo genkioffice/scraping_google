@@ -38,3 +38,5 @@
   It is great CNN and other international news can be watched.    
   なかなか良いです。これからも、宜しくお願い致します。🐱    
   なかなか良いです頑張ってください。    
+genre: 10
+others: 

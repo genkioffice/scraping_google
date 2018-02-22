@@ -40,3 +40,5 @@
   とてもいいと思う    
 genre: 42
 others: 1
+genre: 42
+others: 

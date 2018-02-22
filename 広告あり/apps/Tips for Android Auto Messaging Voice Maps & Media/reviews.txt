@@ -1,1 +1,3 @@
   押木拓夢    
+genre: 2
+others: 

@@ -1,3 +1,5 @@
   連続出し、カウンターが出来ない    
 genre: 38
 others: 1
+genre: 38
+others: 

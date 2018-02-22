@@ -40,3 +40,5 @@
  最高！！ 今まで一番楽しいドリフトゲー ！！！！！    
 genre: 44
 others: 3
+genre: 44
+others: 

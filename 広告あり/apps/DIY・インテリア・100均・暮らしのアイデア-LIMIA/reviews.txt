@@ -40,3 +40,5 @@
   広告多すぎ    
 genre: 15
 others: 1
+genre: 15
+others: 

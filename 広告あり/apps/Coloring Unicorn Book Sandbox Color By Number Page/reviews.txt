@@ -1,3 +1,5 @@
   しょぼい    
 genre: 1
 others: 23
+genre: 1
+others: 

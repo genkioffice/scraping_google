@@ -1,3 +1,5 @@
   テンポ良く出来て楽しいかな    
 genre: 38
 others: 11
+genre: 38
+others: 

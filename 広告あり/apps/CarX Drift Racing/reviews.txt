@@ -40,3 +40,5 @@
   TE37のような6本スポークのホイール追加して欲しいです。    
 genre: 44
 others: 3
+genre: 44
+others: 

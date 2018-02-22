@@ -1,1 +1,3 @@
   Sbs nneme frogamam    
+genre: 17
+others: 

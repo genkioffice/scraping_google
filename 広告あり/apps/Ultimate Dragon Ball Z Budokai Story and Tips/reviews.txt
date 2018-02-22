@@ -1,1 +1,3 @@
   まあまあ    
+genre: 35
+others: 

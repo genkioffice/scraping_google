@@ -10,3 +10,5 @@
   重いわ    
 genre: 39
 others: 10
+genre: 39
+others: 

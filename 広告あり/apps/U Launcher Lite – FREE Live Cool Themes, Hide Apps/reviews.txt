@@ -1,1 +1,3 @@
   なかなか良い    
+genre: 1
+others: 

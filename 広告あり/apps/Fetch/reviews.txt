@@ -11,3 +11,5 @@
   神ってる！    
 genre: 10
 others: 0
+genre: 35
+others: 

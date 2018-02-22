@@ -1,3 +1,5 @@
   楽しいですし面白いです。❗    
 genre: 4
 others: 6
+genre: 4
+others: 

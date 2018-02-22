@@ -1,1 +1,3 @@
   人いない。    
+genre: 27
+others: 

@@ -40,3 +40,5 @@
   なんかはまる    
 genre: 47
 others: 10
+genre: 47
+others: 

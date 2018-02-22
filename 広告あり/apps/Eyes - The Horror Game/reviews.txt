@@ -40,3 +40,5 @@
  怖いけど楽しい‼ お金が20個以上あるのが不思議    
 genre: 36
 others: 2
+genre: 36
+others: 

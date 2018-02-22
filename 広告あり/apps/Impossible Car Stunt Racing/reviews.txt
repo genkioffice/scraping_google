@@ -1,1 +1,3 @@
   難易度高い    
+genre: 46
+others: 

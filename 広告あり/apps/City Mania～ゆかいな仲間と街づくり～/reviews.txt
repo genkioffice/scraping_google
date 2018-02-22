@@ -40,3 +40,5 @@
   暇潰しにはいいと思う    
 genre: 46
 others: 10
+genre: 46
+others: 

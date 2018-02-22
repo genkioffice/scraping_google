@@ -40,3 +40,5 @@
  面白い！ 英語の勉強になります。ハマってます。    
 genre: 35
 others: 11
+genre: 35
+others: 

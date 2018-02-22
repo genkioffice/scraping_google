@@ -15,3 +15,5 @@
   アップデートで軽くなった。    
   ユーザー登録必要あり。動作が重い。    
   Downloaded data is frequently lost. I don't know the reason, but I suspect it happens after reboot.    
+genre: 21
+others: 

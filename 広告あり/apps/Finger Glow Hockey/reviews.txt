@@ -1,3 +1,5 @@
   暇潰しでゲームしています❗楽しい～    
 genre: 36
 others: 8
+genre: 36
+others: 

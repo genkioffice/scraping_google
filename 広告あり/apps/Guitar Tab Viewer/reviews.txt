@@ -21,3 +21,5 @@
  うーん 演奏が遅れてる    
 genre: 20
 others: 3
+genre: 20
+others: 

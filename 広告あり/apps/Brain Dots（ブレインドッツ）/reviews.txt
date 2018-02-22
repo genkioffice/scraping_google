@@ -40,3 +40,5 @@
  戻らない。 なんとかして～！    
 genre: 43
 others: 2
+genre: 43
+others: 

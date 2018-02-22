@@ -40,3 +40,5 @@
   pro版購入したにもかかわらず法令追加が出来ないので、改善して頂きたいです    
 genre: 4
 others: 5
+genre: 4
+others: 

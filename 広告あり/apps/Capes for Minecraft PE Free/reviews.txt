@@ -3,3 +3,5 @@
   うもうー    
 genre: 11
 others: 20
+genre: 11
+others: 

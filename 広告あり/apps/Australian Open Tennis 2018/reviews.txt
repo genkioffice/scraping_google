@@ -17,3 +17,5 @@
  いい！ 特別不便感じません！is03 2.2    
 genre: 28
 others: 1
+genre: 28
+others: 

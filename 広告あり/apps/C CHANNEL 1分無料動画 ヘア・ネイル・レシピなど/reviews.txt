@@ -40,3 +40,5 @@
   オシャレになるし可愛いし最高！    
 genre: 21
 others: 2
+genre: 21
+others: 

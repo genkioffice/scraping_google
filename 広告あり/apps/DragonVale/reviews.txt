@@ -40,3 +40,5 @@
   ( ・∀・) ｲｲﾈ！    
 genre: 46
 others: 12
+genre: 46
+others: 

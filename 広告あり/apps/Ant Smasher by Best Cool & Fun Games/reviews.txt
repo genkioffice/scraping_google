@@ -40,3 +40,5 @@
   広告が多いです    
 genre: 36
 others: 10
+genre: 36
+others: 

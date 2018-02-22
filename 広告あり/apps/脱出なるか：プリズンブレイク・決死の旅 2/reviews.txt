@@ -11,3 +11,5 @@
   何していいのかわからない。    
   No.sense is game:X    
   説明なざすぎ    
+genre: 49
+others: 

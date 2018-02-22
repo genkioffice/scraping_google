@@ -40,3 +40,5 @@
   日本語にして欲しい    
 genre: 43
 others: 10
+genre: 43
+others: 

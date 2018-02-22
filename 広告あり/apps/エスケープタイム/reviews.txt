@@ -38,3 +38,5 @@
  Was fun! It was really fun. I'd like to play other versions!    
  簡単 適当に触ってたらできちゃう    
  解きやすい。 グラフィックもキレイで楽しめました！    
+genre: 35
+others: 

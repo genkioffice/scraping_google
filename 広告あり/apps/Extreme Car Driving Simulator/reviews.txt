@@ -40,3 +40,5 @@
   やりたいことが何でも出来て楽しい    
 genre: 44
 others: 11
+genre: 44
+others: 

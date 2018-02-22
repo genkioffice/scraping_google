@@ -40,3 +40,5 @@
  5 金のエンバープレートゲット!!!    
 genre: 36
 others: 10
+genre: 58
+others: 0

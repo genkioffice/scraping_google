@@ -40,3 +40,5 @@
   まあまあ    
 genre: 46
 others: 11
+genre: 46
+others: 

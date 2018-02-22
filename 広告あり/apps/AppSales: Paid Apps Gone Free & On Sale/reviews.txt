@@ -11,3 +11,5 @@
   強い    
 genre: 26
 others: 2
+genre: 26
+others: 

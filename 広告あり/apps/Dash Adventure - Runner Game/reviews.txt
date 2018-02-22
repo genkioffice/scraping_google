@@ -9,3 +9,5 @@
   たのしい    
 genre: 36
 others: 5
+genre: 36
+others: 

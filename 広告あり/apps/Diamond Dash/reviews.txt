@@ -40,3 +40,5 @@
   久しぶりのゲーム❗楽しいです    
 genre: 36
 others: 7
+genre: 36
+others: 

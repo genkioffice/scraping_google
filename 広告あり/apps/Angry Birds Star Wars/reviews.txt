@@ -40,3 +40,5 @@
  か なまゆにゆによ    
 genre: 36
 others: 11
+genre: 36
+others: 

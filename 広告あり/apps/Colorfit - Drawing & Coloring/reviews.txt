@@ -17,3 +17,5 @@
   いいね！    
 genre: 1
 others: 9
+genre: 1
+others: 

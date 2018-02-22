@@ -40,3 +40,5 @@
   なにこれ。最低‼んなもん使えねー‼    
 genre: 20
 others: 1
+genre: 20
+others: 

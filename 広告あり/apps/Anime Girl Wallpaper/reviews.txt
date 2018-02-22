@@ -1,2 +1,4 @@
 genre: 23
 others: 3
+genre: 6
+others: 

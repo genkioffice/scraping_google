@@ -33,3 +33,5 @@
   楽しみですよ。    
 genre: 43
 others: 8
+genre: 43
+others: 

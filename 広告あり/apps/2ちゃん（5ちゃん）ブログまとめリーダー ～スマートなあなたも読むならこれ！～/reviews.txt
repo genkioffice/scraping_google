@@ -2,3 +2,5 @@
   使いやすくて最高です！    
 genre: 21
 others: 1
+genre: 21
+others: 

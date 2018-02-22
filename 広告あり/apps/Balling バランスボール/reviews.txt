@@ -40,3 +40,5 @@
  ウイルスみつけた ウイルスみつけたので即削除です！！    
 genre: 43
 others: 1
+genre: 43
+others: 

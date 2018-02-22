@@ -40,3 +40,5 @@
   課金せず 暇な時に気軽に遊べる    
 genre: 48
 others: 8
+genre: 48
+others: 
