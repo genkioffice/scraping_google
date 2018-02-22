@@ -3,3 +3,5 @@
   Great news source for anything.  Love it.    
  Very usable(o^-')b ! 字が読みやすい。    
   Simply the best !    
+genre: 21
+others: 

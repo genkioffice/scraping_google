@@ -12,3 +12,5 @@
   good application ! I'm enjoying html thanks to this.    
  good very good    
   隙間時間に楽しみながら勉強できます。    
+genre: 9
+others: 

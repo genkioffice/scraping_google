@@ -1,1 +1,3 @@
   GOOD    
+genre: 12
+others: 

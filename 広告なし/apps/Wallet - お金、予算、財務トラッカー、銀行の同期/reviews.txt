@@ -11,3 +11,5 @@
   日本語対応してない    
  Currency addition Please add Bitcoin to the currency list. Rates can be taken fron Yahoo Finance as they have added Bitcoin to their charts.    
   日本語版作って下さい！英理解出来る人しか使えないとか、日本でダウンロードさせる意味あるの？    
+genre: 12
+others: 

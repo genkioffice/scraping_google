@@ -4,3 +4,5 @@
  色々ついててお得 ワンコインで買えるし見てるだけでも楽しい。惜しむらくは日本語ではないところ・・・    
  格好いいメーターです。 現在地の住所や高度が運転しながらも見やすく大変に便利です。  It is pleasing in legible smart meter.  Although it is compass, I want you to improve and carry out so that the direction which it has turned to may always be shown, also when having stopped.    
  Best Design! I really like it cool a GUI Thank you.    
+genre: 2
+others: 

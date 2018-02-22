@@ -1,1 +1,3 @@
   普通    
+genre: 21
+others: 

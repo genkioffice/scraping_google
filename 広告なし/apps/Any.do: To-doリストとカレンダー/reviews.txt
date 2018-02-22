@@ -38,3 +38,5 @@
   起動さえしない 立ち上げようとしてもすぐクラッシュする ごちゃごちゃ別のアプリに小分けにせずに一つにまとめればいいのに  For empty-headed white junk: Who can report bugs in 0 sec crashing app? You looks like live in comic.    
   グーグルと同期不可 帯太い、見せびらかしUI    
   必須アプリなり    
+genre: 25
+others: 

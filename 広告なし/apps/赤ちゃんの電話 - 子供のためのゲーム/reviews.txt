@@ -1,1 +1,3 @@
   起動出来ない    
+genre: 9
+others: 

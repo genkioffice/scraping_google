@@ -11,3 +11,5 @@
   Amazing app    
  Confusing redundant arrogance Basically you don't know what makes a good podcasting app. Keep loving your own redundant programming err jar    
  Love it The new interface is hot but the logo not so much    
+genre: 21
+others: 

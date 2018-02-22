@@ -1,1 +1,3 @@
   たのしいね    
+genre: 49
+others: 

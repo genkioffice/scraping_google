@@ -38,3 +38,5 @@
   自動戦闘が、、、    
   なかなか面白い    
   Good game    
+genre: 48
+others: 

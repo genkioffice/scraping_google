@@ -38,3 +38,5 @@
  良いです ちょっとした作業に申し分なく使えます。    
  便利です。一部バグあり？ 公開鍵認証も可能で汎用性の高いアプリです。 ですがGoogle日本語入力(GoogleIME)利用していると、リモート接続時に、字入力の遅延が発生します。 アプリ自体は大変素晴らしいです。    
  Good but a trouble exists on FHD tablets. I't's pretty good, but by using FHD tablet,(1920 x 1200 7inchi)  connections window does displays connection names and descriptions overlapped! 2015/1/13 I confirmed that "Overlapped" problem has been fixed!    
+genre: 7
+others: 

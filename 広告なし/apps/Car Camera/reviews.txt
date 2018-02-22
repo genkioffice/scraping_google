@@ -1,1 +1,3 @@
   GPS log with timelapse movie.Only this appli can record speed in knots, I think!        **************************        Is it possible to record two video together, by using both back &front camera at the same time? I hope..   I also want to change speed mode during recording(for example,30x to 10x)    
+genre: 2
+others: 

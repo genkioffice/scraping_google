@@ -38,3 +38,5 @@
   楽しい    
   good hame!    
   とても楽しいです☆    
+genre: 35
+others: 

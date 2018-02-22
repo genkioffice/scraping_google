@@ -16,3 +16,5 @@
  やや 不安定なところもあるが公式よりだいぶまし    
  素晴らしい デザインが洗練されています。    
  Great app! Fun and easy to use    
+genre: 24
+others: 

@@ -38,3 +38,5 @@
   まあまあです。    
   楽しいよー    
   verywell exiting    
+genre: 45
+others: 

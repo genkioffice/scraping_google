@@ -29,3 +29,5 @@
   GANMAのパクリ    
   イチゴ  　    
   ひどい    
+genre: 6
+others: 

@@ -1,1 +1,3 @@
  nexus5 android4.4.4 Not be able to play Wrong target android version    
+genre: 38
+others: 

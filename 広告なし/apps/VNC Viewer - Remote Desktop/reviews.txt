@@ -33,3 +33,5 @@
   cannot download!    
  素晴らしい 動きが軽い。さすが有料なだけはある。    
   Version    
+genre: 25
+others: 

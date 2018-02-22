@@ -3,3 +3,5 @@
   It would be better if I can sync my Favourites and as well rename them.    
   最高。    
   背景が白じゃないのが良かったのにな。    
+genre: 4
+others: 

@@ -1,2 +1,4 @@
   I'm loving it!!!    
   ポーズがさくっと参照できてとっても良いです。    
+genre: 14
+others: 

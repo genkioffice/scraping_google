@@ -16,3 +16,5 @@
  Awesome app The best app for no-looking    
   Awesome app!    
  Awesome！ Amazing!    
+genre: 2
+others: 

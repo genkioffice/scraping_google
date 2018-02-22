@@ -33,3 +33,5 @@
   凄くいいです。    
   使いやすい。    
   good    
+genre: 14
+others: 

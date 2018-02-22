@@ -16,3 +16,5 @@
  Only for beginners This app gives you some basic knowledge about Java, but doesn't improve your coding skills at all. If you have any experience to write any Java codes, you don't need this.    
   Very understandable , simple , and rich in information that java learner needs to know.    
   このｱﾌﾟﾘ起動しても勝手に強制終了するんですが...どうなってんのよ....    
+genre: 9
+others: 

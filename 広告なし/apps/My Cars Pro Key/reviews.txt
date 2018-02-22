@@ -1,2 +1,4 @@
   良いと思う。    
   google driveにバックアップ出来るようにお願いします。    
+genre: 2
+others: 

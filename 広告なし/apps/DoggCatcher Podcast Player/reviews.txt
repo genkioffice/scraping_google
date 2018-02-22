@@ -4,3 +4,5 @@
   has everything you can dream of!    
   very good    
  googleのlistenから乗り換えです listenと比べても圧倒的に使いやすくすく動作も安定で、満足しています。    
+genre: 21
+others: 

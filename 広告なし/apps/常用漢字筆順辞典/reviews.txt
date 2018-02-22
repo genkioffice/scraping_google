@@ -38,3 +38,5 @@
   003SH SDに移動できないです。    
   SDに移動出来ないよ。 2.2REGZA    
   Galaxy Tabですがメモリーカードに移動出来ないですよ。    
+genre: 4
+others: 

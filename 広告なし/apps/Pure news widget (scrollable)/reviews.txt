@@ -12,3 +12,5 @@
   can't get skins←thanks for update!    
   スクロールがもっとぬるぬるになれば最高 当方T-01C 2.2    
  直角 よいにちがいない    
+genre: 21
+others: 

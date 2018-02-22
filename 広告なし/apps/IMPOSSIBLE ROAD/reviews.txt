@@ -1,3 +1,5 @@
   Good Design!    
   simple is best    
   OK!    
+genre: 36
+others: 

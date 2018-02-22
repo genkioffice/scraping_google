@@ -1,1 +1,3 @@
   PL,BSは見られるが、PCで作成したInvoice, expense等々が見られないので自分にとっては使う意味がない…    
+genre: 5
+others: 

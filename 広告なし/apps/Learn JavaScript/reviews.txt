@@ -7,3 +7,5 @@
   スマホで勉強できる。    
  good!good!good! テキストコピー出来るようにしてほしい。一番いいのはグーグル翻訳と連携！    
  JavaScript Imskara hosii text    
+genre: 9
+others: 

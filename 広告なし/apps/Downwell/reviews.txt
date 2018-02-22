@@ -38,3 +38,5 @@
   おもろい❗    
   すばらしい    
   gooooooood    
+genre: 34
+others: 

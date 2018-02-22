@@ -4,3 +4,5 @@
  教えて 線のスケールはどうやってさせますか?    
   データーが消えた    
  日本語希望 日本語対応して下さい。 I do not know how to deploy ... block that we have Japanese support    
+genre: 1
+others: 

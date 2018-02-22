@@ -6,3 +6,5 @@
   分かりにくい。！    
   いいよー    
   Good    
+genre: 26
+others: 

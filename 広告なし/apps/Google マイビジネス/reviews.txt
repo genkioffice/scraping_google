@@ -38,3 +38,5 @@
   Ｖｅｒｙ ☺    
   いいね。！    
  good 좋아요    
+genre: 5
+others: 

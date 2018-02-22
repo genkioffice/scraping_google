@@ -22,3 +22,5 @@
   使いよい。96点    
   sh03cです。 ()が使えて、途中計算でボタンが大きくシンプルなデザインで軽い電卓探してコレに辿り着きました。 機能的には他のアプリに劣りますが、関数等く使わない人には最高です。    
   Thx! I love this UI. I want exponential result in large number(ex.1E9), or small number under the accuracy digits(ex.1E-9). I can't wait HEX/BIN/OCT!    
+genre: 29
+others: 

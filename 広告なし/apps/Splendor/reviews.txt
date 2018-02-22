@@ -6,3 +6,5 @@
  起動エラー 久々に起動しようとしたらエラー発生して起動出来なくなった･･･    
  あれ？ 久し振りに動かしたらデータエラーになってしまった。というわけで再度やり直し    
   good game, but bad font. (can select font in option)    
+genre: 37
+others: 

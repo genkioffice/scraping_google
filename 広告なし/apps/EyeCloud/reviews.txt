@@ -6,3 +6,5 @@
   動作上問題なく、素晴らしいです。カメラと合わせ、コスパ最高です。    
   動作が安定しない。 読み込み画面から動かなくなることが多く、アプリ終了してから復帰させている。  いきなりログイン要求され パスワード入れるも不正と出てログイン出来ない。 パスワード忘れた事にしてメール送ろうとするも それすら出来ず、強制終了しても 再インストールしてもダメ。 お手上げ    
   It works fine but translation (japanese) is the worst...so it is better to choose language in setting.  IR control still has problems especially for air-conditioners.  Please make it simple like "Eco/Auto" "Heat" "Cool" "Dry" "Off" "Temp up/down".  I also want to control the light, please create the program like "On" "Off" "Brightness up/down" "Color up/down".  Thank you!!    
+genre: 16
+others: 

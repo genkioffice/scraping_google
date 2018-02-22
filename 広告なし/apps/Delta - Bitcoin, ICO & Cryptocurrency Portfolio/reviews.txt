@@ -3,3 +3,5 @@
   Very good!  but please add pie graph portfolio and widget    
   シンプルですごく良いです。対応仮想通貨や基軸通貨も豊富。customでboughtwithの基軸通貨がUSDしかないので、各種基軸通貨も対応してほしいです。    
   めちゃくちゃいい 法定通貨以外とのペアも管理できる    
+genre: 12
+others: 

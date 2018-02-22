@@ -8,3 +8,5 @@
   最低    
   Very frequent freeze when logging in, after the update    
   Can't open suddenly.    
+genre: 25
+others: 

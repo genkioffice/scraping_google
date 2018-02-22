@@ -11,3 +11,5 @@
   アップデートで今まで出来てたゲームのいくつかが有料になってしまったのが残念。あとデバイス間の連携は出来ないみたい。一切課金しないでも好きなだけトレーニング出来るのは最高。↓の方、難易度はSettingsのGoalsから選べますよ～。    
   It's a short quiz which can be used as a warm-up exercise in the morning    
  日本語対応は？ 日本語対応とかはあるんですかねぇ？    
+genre: 9
+others: 
