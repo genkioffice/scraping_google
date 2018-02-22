@@ -1,0 +1,2 @@
+genre: 40
+others: 24

@@ -19,3 +19,5 @@
   A less bug tab viewer apps, can play and edit, easy surfaces, loving it    
   これはおかしい？さっはあわからん？    
  うーん 演奏が遅れてる    
+genre: 20
+others: 3

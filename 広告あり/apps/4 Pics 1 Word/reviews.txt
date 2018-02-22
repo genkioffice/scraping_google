@@ -30,3 +30,5 @@
  ハマります かなりハマってます。    
  おすすめ いい英語練習(^_^)v    
  Nice a little difficult for me!but It's fun    
+genre: 50
+others: 3

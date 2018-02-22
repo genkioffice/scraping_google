@@ -17,3 +17,5 @@
  wifisettingが 何回も出てくる。    
   使い方がわからない。    
   インストールできない    
+genre: 31
+others: 1

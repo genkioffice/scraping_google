@@ -37,3 +37,5 @@
   インストールされない。    
   いいね!いいよ!    
   very good    
+genre: 48
+others: 4

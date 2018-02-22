@@ -1,1 +1,3 @@
   Mimiki0615    
+genre: 45
+others: 15

@@ -100,9 +100,16 @@ def adapt_label()
       # genreを取り出す
       title_index = without_name_list.find_index(title)
       url = without_list[title_index]
-      genre = get_category(url)
-      # 他のad付きのappの数を数える
-      ad_counts = fetch_number_ad_apps(url)
+      if url == "deleted"
+        # null genre is 58
+        genre = 58
+        ad_counts = 0
+        byebug
+      else
+        genre = get_category(url)
+        # 他のad付きのappの数を数える
+        ad_counts = fetch_number_ad_apps(url)
+      end
       f.puts("genre: " + genre.to_s)
       f.puts("others: " + ad_counts.to_s)
     end

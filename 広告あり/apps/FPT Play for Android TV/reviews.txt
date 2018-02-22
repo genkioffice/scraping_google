@@ -1,0 +1,2 @@
+genre: 10
+others: 2

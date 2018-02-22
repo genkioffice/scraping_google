@@ -1,1 +1,3 @@
   試しましたがOK です    
+genre: 12
+others: 2
