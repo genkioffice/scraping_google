@@ -1,4 +1,0 @@
-  This is good crypto currency portfolio management application.  However, there is one trouble which is troubled.If there is an crypto currency of the same code, it maybe calculated at an inappropriate rate.  For example, the currency code BAT handled by the cryptopia exchange corresponds.If this trouble solved, I think it will be a more wonderful application.    
-  Wallet sync is fantastic, easy to add new entries. My only complaint would be the ui is a little clunky at times and the charts do not load    
-  シンプルな仮想通貨資産の確認ツールです。開発が継続的に行われていますし、フィードバックの反映も早いです。最近のアップデートでバグが増えましたが、変わらず便利なアプリです。a simple virtual currency asset confirmation tool. good for quick check up two or more acounts. Simple and enough. The developments is ongoing and reflection of feedback is fast. Although recent bugs have increased due to the update, this is an useful application.    
-  けっこう好きです。    

@@ -18,7 +18,7 @@ def get_name_list(path)
   return name_list
 end
 
-# used in create_sets_url, 
+# used in create_sets_url,
 def scrape_search(path)
   begin
     path = Addressable::URI.parse(path).normalize
@@ -31,7 +31,7 @@ def scrape_search(path)
   end
   if tmp.empty?
     return 'deleted'
-  else  
+  else
     the_url = tmp[1].attribute('href').value
     return modify_link(the_url)
   end
@@ -107,5 +107,5 @@ def adapt_label()
     end
   end
 end
-# start labeling 
+# start labeling
 adapt_label()
